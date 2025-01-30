@@ -101,7 +101,7 @@
         devShell.${system} = pkgs.mkShell {
           buildInputs = [
             self.packages.${system}.default
-            pkgs.mpv
+          #  pkgs.mpv
           ];
         };
   };
